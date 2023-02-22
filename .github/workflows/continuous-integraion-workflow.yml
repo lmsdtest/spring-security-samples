@@ -3,8 +3,7 @@ name: CI
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '0 10 * * *' # Once per day at 10am UTC
+
 
 jobs:
   build:
